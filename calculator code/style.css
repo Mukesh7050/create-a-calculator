@@ -15,9 +15,7 @@ body{
     align-items: center;
     background: linear-gradient(45deg,#0a0a0a,#3a4452);
 }
-.main{
-    
-}
+
 .calculator{
     border: 1px solid #717377;
     padding: 20px;
@@ -29,7 +27,7 @@ body{
 
 input{
     width: 320px;
-    border: 1.5px solid rgba(152, 9, 235, 0.558);
+    border: none;
     padding: 24px;
     margin: 10px;
     background: transparent;
@@ -55,9 +53,6 @@ button{
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255,255,255,0.2);
     cursor: pointer;
-}
-button:hover{
-    opacity: 0.7;
 }
 
 .equalBtn{
